@@ -2,9 +2,7 @@ import pygame
 import sys
 import random
 import copy
-from pygame import surface
-from pygame import color
-from pygame.constants import MOUSEBUTTONDOWN, MOUSEBUTTONUP
+
 
 
 class Crossbutton:   
