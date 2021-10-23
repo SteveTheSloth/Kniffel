@@ -695,7 +695,7 @@ def main():
 
     playerlist[0].my_turn = True                                                                       #it's the first player's turn
     playercount = 1                                                                                    #playercount starts with 1
-    turns = 13                                                                                          #number of turns starts with 1
+    turns = 1                                                                                          #number of turns starts with 1
 
     while True:                                                                                        #start game loop
         if turns < 14:                                                                                 #the game takes 13 turns
