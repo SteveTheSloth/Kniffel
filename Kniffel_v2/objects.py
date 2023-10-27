@@ -164,7 +164,7 @@ def main():
     for i in range(x):
         y = input("Please type the name of player number {0}.\t".format(i+1))
         namelist.append(y)
-        y = Players()
+        y = Players(y)
         playerlist.append(y)
 
     input("Lets play!")
